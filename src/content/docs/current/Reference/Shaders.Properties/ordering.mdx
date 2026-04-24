@@ -9,7 +9,7 @@ import { Badge } from '@astrojs/starlight/components';
 
 This page lists [shaders.properties](/current/reference/shadersproperties/overview/) directives related to program ordering, enabling/disabling programs, enabling/disabling geometry within programs, and compute passes.
 
-## particles.ordering <Badge text="Iris Exclusive" variant="tip" size="medium" />
+## particles.ordering <Badge text="Iris Only" variant="tip" size="medium" />
 ```properties
 particles.ordering=<mixed|after|before>
 ```
@@ -31,7 +31,7 @@ The legacy version of [`particles.ordering`](/current/reference/shaderspropertie
 ----------------
 
 
-## separateEntityDraws <Badge text="Iris Exclusive" variant="tip" size="medium" />
+## separateEntityDraws <Badge text="Iris Only" variant="tip" size="medium" />
 ```properties
 separateEntityDraws=<true|false>
 ```
@@ -57,7 +57,7 @@ Replace:
 ----------------
 
 
-## shadow.enabled <Badge text="Iris Exclusive" variant="tip" size="medium" />
+## shadow.enabled <Badge text="Iris Only" variant="tip" size="medium" />
 ```properties
 shadow.enabled=<true|false>
 ```
@@ -93,7 +93,7 @@ Sets whether entities are rendered in the [`shadow pass`](/current/reference/pro
 ----------------
 
 
-## shadowPlayer <Badge text="Iris Exclusive" variant="tip" size="medium" />
+## shadowPlayer <Badge text="Iris Only" variant="tip" size="medium" />
 ```properties
 shadowPlayer=<true|false>
 ```
@@ -111,7 +111,7 @@ Sets whether block entities are rendered in the [`shadow pass`](/current/referen
 ----------------
 
 
-## shadowLightBlockEntities <Badge text="Iris Exclusive" variant="tip" size="medium" />
+## shadowLightBlockEntities <Badge text="Iris Only" variant="tip" size="medium" />
 ```properties
 shadowLightBlockEntities=<true|false>
 ```
@@ -120,7 +120,7 @@ This value sets an override for block entities that emit light. If `shadowBlockE
 ----------------
 
 
-## skipAllRendering <Badge text="Iris Exclusive" variant="tip" size="medium" />
+## skipAllRendering <Badge text="Iris Only" variant="tip" size="medium" />
 ```properties
 skipAllRendering=<true|false>
 ```
@@ -131,7 +131,7 @@ This option is intended for path tracing packs which do not utilize the [gbuffer
 ----------------
 
 
-## voxelizeLightBlocks <Badge text="Iris Exclusive" variant="tip" size="medium" />
+## voxelizeLightBlocks <Badge text="Iris Only" variant="tip" size="medium" />
 ```properties
 voxelizeLightBlocks=<true|false>
 ```
@@ -144,7 +144,7 @@ Light blocks will be rendered as a single (degenerate) invisible quad with all p
 ----------------
 
 
-## indirect.pass <Badge text="Iris Exclusive" variant="tip" size="medium" />
+## indirect.pass <Badge text="Iris Only" variant="tip" size="medium" />
 ```properties
 indirect.<pass> = <bufferObjectNumber> <offsetInBuffer>
 ```
@@ -160,7 +160,7 @@ The object at offset in the SSBO must be an `uvec3` which stores the number of w
 ----------------
 
 
-## allowConcurrentCompute <Badge text="Iris Exclusive" variant="tip" size="medium" />
+## allowConcurrentCompute <Badge text="Iris Only" variant="tip" size="medium" />
 ```properties
 allowConcurrentCompute=<true|false>
 ```
