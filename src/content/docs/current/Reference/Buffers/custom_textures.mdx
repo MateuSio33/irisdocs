@@ -54,8 +54,9 @@ When using the OptiFine specification, replace `<stage>` with the stage of progr
 
 | Name         | Description                                                                                                       |
 |--------------|------------------------------------------------------------------------------------------------------------------ |
-| `setup`      | [`setup`](/current/reference/prorgams/setup/) programs <Badge text="Iris Exclusive" variant="tip" size="small" /> |
-| `begin`      | [`begin`](/current/reference/programs/begin/) programs <Badge text="Iris Exclusive" variant="tip" size="small" /> |
+| `setup`      | [`setup`](/current/reference/prorgams/setup/) programs <Badge text="Iris Only" variant="tip" size="small" /> |
+| `begin`      | [`begin`](/current/reference/programs/begin/) programs <Badge text="Iris Only
+" variant="tip" size="small" /> |
 | `shadowcomp` | [`shadowcomp`](/current/reference/programs/shadow_comp/) programs                                                 |
 | `prepare`    | [`prepare`](/current/reference/programs/prepare/) programs                                                        |
 | `gbuffers`   | [`gbuffers`](/current/reference/programs/gbuffers/) and [`shadow`](/current/reference/programs/shadow/) programs  |
@@ -67,7 +68,7 @@ On Iris, binding a custom texture to the `composite` stage will also bind it in 
 :::
 
 
-## `customTexture` directive <Badge text="Iris Exclusive" variant="tip" size="medium" />
+## `customTexture` directive <Badge text="Iris Only" variant="tip" size="medium" />
 Iris adds support for the `customTexture` directive, which allows a custom texture to be accessed via a different sampler instead of overriding an existing sampler. This allows creation of a sampler of (mostly) any name, which replaces `<name>` in the directive and is used in the shader code. Otherwise, the syntax of the enhanced custom textures are identical to standard custom textures.
 
 ```properties title="shaders.properties"
